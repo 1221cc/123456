@@ -5,5 +5,5 @@
 # week_1  
 ## in class  
 實作  
-https://1221cc.github.io/123456/week_1/one_1
+【HW_1】(https://1221cc.github.io/123456/week_1/one_1)
 ## at home  
