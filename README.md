@@ -11,7 +11,7 @@
 
 # week_2
 ## in class
-實作
+試作
 [HW_2](https://1221cc.github.io/123456/week_1/one_1)
 
 
