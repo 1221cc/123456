@@ -3,14 +3,14 @@ title: "one"
 output: html_document
 ---
 
-#課堂
-安裝Github
-安裝R Studio
-安裝R Markdown
+#課堂  
+安裝Github  
+安裝R Studio  
+安裝R Markdown  
 
-#作業
-自我介紹
-學習筆記
+#作業  
+自我介紹  
+學習筆記  
 
 ```{r}
 #install.packages("ggplot2")
