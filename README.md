@@ -7,3 +7,10 @@
 實作  
 [HW_1](https://1221cc.github.io/123456/week_1/one_1)
 ## at home  
+練習
+
+# week_2
+## in class
+實作
+
+## 
