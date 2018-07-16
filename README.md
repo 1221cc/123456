@@ -16,7 +16,7 @@
 實作  
 使用ggplot2
 
-<作業> 
+<作業>  
 [HW_2.1](https://1221cc.github.io/123456/week_2/TWO_1)  
 
 
