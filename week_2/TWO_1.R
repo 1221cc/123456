@@ -57,7 +57,9 @@ ggplot(iris,aes(x = Species, y = Petal.Length)) + geom_boxplot(colour = "black")
 ##各種之花瓣長度小提琴圖
 ggplot(iris,aes(x = Species, y = Petal.Length)) + geom_violin()
 
-
+#分割多圖
+##以種類分割成小圖，x為花瓣的長度，y為花瓣的寬度
+ggplot(data = iris,aes(x = Petal.Length, y = Petal.Width)) + geom_point() + facet_wrap(~Species)
 
 
 
