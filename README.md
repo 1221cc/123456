@@ -18,8 +18,8 @@
 
 ## at home  
 第一堂課筆記  
- 1. README.md是公開的留言板  
- 2. 只要在本機資料夾開、存檔案，都會同步(要按GitHub)  
+1. README.md是公開的留言板  
+2. 只要在本機資料夾開、存檔案，都會同步(要按GitHub)  
 3.在本機資料夾建檔(ex:week_1)  
 4.建立RMD  
 RStudio -> File -> New File -> Rmarkdown => 可選HTML、Word、PDF檔 => 存檔到(ex:week_1):File -> Save As => 選資料夾  
