@@ -6,19 +6,23 @@ output: html_document
 library(ggplot2)
 ```
 #單變數:類別型
+##每一種個數各有幾個
 ```{r}
 ggplot(data = iris,aes(x= Species)) + geom_bar(fill = "lightblue", colour = "black")
 ```
 #單變數:連續型
+##花瓣的長度
 ```{r}
 ggplot(data = iris,aes(x = Petal.Length)) + geom_histogram()
 ```
 
 #雙變數:連續V.S.連續
+##花萼的長度與寬度分布
 ```{r}
 ggplot(data = iris,aes(x = Sepal.Length, y = Sepal.Width)) + geom_point()
 ```
 #雙變數:離散V.S.連續
+##各種之花瓣寬度箱型圖
 ```{r}
 ggplot(iris,aes(x = Species, y = Petal.Width)) + geom_boxplot(colour = "black")
 ```
