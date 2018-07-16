@@ -5,6 +5,8 @@
 # week_1  
 ## in class  
 實作  
+
+作業  
 [HW_1](https://1221cc.github.io/123456/week_1/one_1)
 ## at home  
 練習
@@ -13,6 +15,7 @@
 ## in class
 實作  
 使用ggplot2  
+作業  
 [HW_2.1](https://1221cc.github.io/123456/week_2/TWO_1)  
 
 
