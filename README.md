@@ -18,7 +18,7 @@
 
 <作業>  
 [HW_2.1](https://1221cc.github.io/123456/week_2/TWO_1)  
-
+[HW_2.2](https://1221cc.github.io/123456/week_2/TWO_2.2)  
 
 ## at home
 
