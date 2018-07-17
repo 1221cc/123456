@@ -1,0 +1,36 @@
+---
+title: "TWO_2.2"
+output: html_document
+---
+
+```{r}
+setwd("C:/Users/acer/Desktop/123456/week_2")
+rm(list=ls(all.names = TRUE))
+library(NLP)
+library(tm)
+library(jiebaRD)
+library(jiebaR)
+library(RColorBrewer)
+library(wordcloud)
+filenames <- list.files(getwd(), pattern="*.txt")
+files <- lapply(filenames, readLines)
+docs <- Corpus(VectorSource(files))
+ mixseg = worker()
+ jieba_tokenizer=function(d){
+   unlist(segment(d[[1]],mixseg))
+ }
+ seg = lapply(docs, jieba_tokenizer)
+ freqFrame = as.data.frame(table(unlist(seg)))
+ freqFrame = freqFrame[order(freqFrame$Freq,decreasing=TRUE), ]
+ library(knitr)
+ kable(head(freqFrame), format = "markdown")
+
+library(wordcloud)
+ wordcloud(freqFrame$Var1,freqFrame$Freq,
+           scale=c(5,0.1),min.freq=50,max.words=150,
+           random.order=TRUE, random.color=FALSE, 
+           rot.per=.1, colors=brewer.pal(8, "Dark2"),
+           ordered.colors=FALSE,use.r.layout=FALSE,
+           fixed.asp=TRUE)
+
+```
