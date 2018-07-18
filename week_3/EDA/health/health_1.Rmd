@@ -1,0 +1,9 @@
+---
+title: "THREE_1"
+output: html_document
+---
+
+#Data from (https://www.kaggle.com/osmihelp/osmi-mental-health-in-tech-survey-2017) 
+
+
+
