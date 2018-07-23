@@ -3,3 +3,20 @@ title: "THREE_1.1"
 output: html_document
 ---
 
+#DATA From https://www.kaggle.com/ambarish/simple-eda-of-the-powerlifting-database/notebook 
+
+```{r}
+TESTDATA = read.csv('./database/meets.csv')
+
+```
+
+#切割
+```{r}
+TESTDATA$MeetPath[TESTDATA$MeetPath %in% c("Mlle", "Ms")] <- "Miss"
+TESTDATA$MeetPath[all$Title== "Mme"] <- "Mrs"
+TESTDATA$MeetPath[!(all$Title %in% c('Master', 'Miss', 'Mr', 'Mrs'))] <- "Rare Title"
+TESTDATA$MeetPath <- as.factor(all$Title)
+kable(table(all$Sex, all$Title))
+
+
+```
